@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="remote_control.css">
+    <title>لوحة التحكم بالروبوت</title>
+</head>
+<body>
+    <h1>لوحة التحكم بالروبوت</h1>
+    <h3>لوحة التحكم بالذراع</h3>
+ <form method="post" action="insert.php" target="_blank">
+    <div class="slidecontainer">
+        <input type="range" min="0" max="180" value="1" class="slider" id="range1" name="en1"> 
+        <p class="engin">1 محرك </p>
+        <p>value: <span id="output1"></span></p>
+    </div>
+    <hr>
+    <div class="slidecontainer">
+        <input type="range" min="0" max="180" value="1" class="slider" id="range2" name="en2"> 
+        <p class="engin">2 محرك </p>
+        <p>value: <span id="output2"></span></p>
+    </div>
+    <hr>
+    <div class="slidecontainer">
+        <input type="range" min="0" max="180" value="1" class="slider" id="range3" name="en3"> 
+        <p class="engin">3 محرك </p>
+        <p>value: <span id="output3"></span></p>
+    </div>
+    <hr>
+    <div class="slidecontainer">
+        <input type="range" min="0" max="180" value="1" class="slider" id="range4" name="en4"> 
+        <p class="engin">4 محرك </p>
+        <p>value: <span id="output4"></span></p>
+    </div>
+    <hr>
+    <div class="slidecontainer">
+        <input type="range" min="0" max="180" value="1" class="slider" id="range5" name="en5"> 
+        <p class="engin">5 محرك </p>
+        <p>value: <span id="output5"></span></p>
+    </div>
+    <hr>
+    <div class="slidecontainer">
+        <input type="range" min="0" max="180" value="1" class="slider" id="range6" name="en6"> 
+        <p class="engin">6 محرك </p>
+        <p></p>value: <span id="output6"></span></p>
+    </div>
+    <div class="center">
+     <input type="submit" id='bOne' name="save" value="حفظ" class="col-12">
+     <input type="submit" id='bTwo' name="on" value="تشغيل" class="col-12">
+    </div>
+        
+</form>
+<hr>
+<h3>لوحة التحكم بالقاعدة</h3>
+<form action="directions_database.php" method="POST" target="_blank">
+    <div class="center">
+        <input type="submit" name="forward" value="forward" id="forward">
+    </div>
+    <div class="center">
+        <div id="container">
+            <input type="submit" name="left" value="left" id="left">
+            <input type="submit" name="stop" value="stop" id="stop">
+            <input type="submit" name="right" value="right" id="right">
+        </div>
+    </div>
+    
+    <div class="center">
+        <input type="submit" name="backward" value="backward" id="backward">
+    </div>
+</form>
+    <script src="remote_control.js"></script>
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "27235943-a649-4662-a351-afda6442d749", // The ID of this integration.
+            region: "eu-gb", // The region your integration is hosted in.
+            serviceInstanceID: "8024847c-3459-4161-83f1-26a08bff5a70", // The ID of your service instance.
+            onLoad: function(instance) { instance.render(); }
+          };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+          document.head.appendChild(t);
+        });
+      </script>
+</body>
+
+</html>

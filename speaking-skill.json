@@ -1,0 +1,1317 @@
+{
+  "intents": [
+    {
+      "intent": "books",
+      "examples": [
+        {
+          "text": "book"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "cancel_order",
+      "examples": [
+        {
+          "text": "Can I cancel my order?"
+        },
+        {
+          "text": "I'd like to cancel my order"
+        },
+        {
+          "text": "I need to cancel an order I just placed"
+        },
+        {
+          "text": "I want to cancel my order"
+        },
+        {
+          "text": "that order i placed, i need to cancel it."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "Hello",
+      "examples": [
+        {
+          "text": "alsalam ealaykum"
+        },
+        {
+          "text": "Alsalamealaykum"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "welcome"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "menu",
+      "examples": [
+        {
+          "text": "Are there any specials today?"
+        },
+        {
+          "text": "do you serve desserts?"
+        },
+        {
+          "text": "How much does a meal cost?"
+        },
+        {
+          "text": "I want to see a menu"
+        },
+        {
+          "text": "What are the choices for appetizers?"
+        },
+        {
+          "text": "What dishes do you have?"
+        },
+        {
+          "text": "What do you have for food?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "reservations",
+      "examples": [
+        {
+          "text": "Do you have any vacancies?"
+        },
+        {
+          "text": "how much does a single room cost?"
+        },
+        {
+          "text": "Is there a reservation?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "restaurantInfo",
+      "examples": [
+        {
+          "text": "Are you open for breakfast?"
+        },
+        {
+          "text": "Do you deliver?"
+        },
+        {
+          "text": "How many locations do you have?"
+        },
+        {
+          "text": "Tell me about the restaurant"
+        },
+        {
+          "text": "Who is your head chef and what is the chef's background?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "yes",
+      "examples": [
+        {
+          "text": "correct"
+        },
+        {
+          "text": "please do"
+        },
+        {
+          "text": "that is correct"
+        },
+        {
+          "text": "that's right"
+        },
+        {
+          "text": "yeah"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "Yes, I'd like to go ahead with that."
+        },
+        {
+          "text": "You've got it right."
+        },
+        {
+          "text": "Yup"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "book",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Education",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "horror",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Novels",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "self development",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Education",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Cambridge",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cambridge English",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "hello",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "alsalamealaykum",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "welcome",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "menu",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Beverages",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "breakfast",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "burgers",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "desserts",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "happy meal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "McCafe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "snacks&sides",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "name",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "name",
+          "patterns": [
+            "[A-Z]",
+            "[a-z]"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Novels",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Kafka on The Shore",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "The Alchemist",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "order_number",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "order_number",
+          "patterns": [
+            "[A-Z]{2}\\d{5}"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Reservations",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "reservationType",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Book a flight",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "restaurantInfo",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "selfDevelopment",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "inspirers",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "you do",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What time would be best for you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_8_1625978226233",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1625978226234",
+      "previous_sibling": "handler_5_1625978226234"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "how many people do you have?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_6_1625978532580",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1625978532581",
+      "previous_sibling": "handler_5_1625978532581"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " When would you like to check in? define a day"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_6_1625978083576",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1625978083639",
+      "previous_sibling": "handler_8_1625978083639"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1625978226233",
+      "context": {
+        "time": "@sys-time"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_5_1625978226234"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1625978532580",
+      "context": {
+        "number": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_5_1625978532581"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1625978083576",
+      "context": {
+        "date": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_8_1625978083639"
+    },
+    {
+      "type": "standard",
+      "title": "@menu:breakfast",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To see our menu, go to the <a href=\"https://www.mcdonalds.com/sa/en-sa/riyadh/full-menu/breakfast.html\" target=\"blank\">breakfast</a> page on our website."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1626094682255",
+      "conditions": "@menu:breakfast",
+      "dialog_node": "node_10_1626095974508"
+    },
+    {
+      "type": "standard",
+      "title": "#menu",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In keeping with our commitment to giving you only fresh local ingredients, our menu changes daily to accommodate the produce we pick up in the morning. You can find today's menu on our website."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "which menu do you want to see?",
+            "options": [
+              {
+                "label": "breakfast",
+                "value": {
+                  "input": {
+                    "text": "breakfast menu"
+                  }
+                }
+              },
+              {
+                "label": "burgers",
+                "value": {
+                  "input": {
+                    "text": "burgers"
+                  }
+                }
+              },
+              {
+                "label": "snacks&sides",
+                "value": {
+                  "input": {
+                    "text": "snacks&sides"
+                  }
+                }
+              },
+              {
+                "label": "desserts",
+                "value": {
+                  "input": {
+                    "text": "desserts"
+                  }
+                }
+              },
+              {
+                "label": "McCafe",
+                "value": {
+                  "input": {
+                    "text": "McCafe"
+                  }
+                }
+              },
+              {
+                "label": "happy meal",
+                "value": {
+                  "input": {
+                    "text": "happy meal"
+                  }
+                }
+              },
+              {
+                "label": "Beverages",
+                "value": {
+                  "input": {
+                    "text": "Beverages"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#menu",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1626094682255",
+      "previous_sibling": "node_3_1626092522224"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To see our menu, go to the <a href=\"https://www.mcdonalds.com/sa/en-sa/riyadh/full-menu/burgers.html\" target=\"blank\">burgers</a> page on our website."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1626094682255",
+      "conditions": "@menu:burgers",
+      "dialog_node": "node_1_1626096161518",
+      "previous_sibling": "node_10_1626095974508"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "the books are:",
+            "options": [
+              {
+                "label": "inspirers",
+                "value": {
+                  "input": {
+                    "text": "inspirers"
+                  }
+                }
+              },
+              {
+                "label": "who says you can't ? you do.",
+                "value": {
+                  "input": {
+                    "text": "you do"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1626091252907",
+      "conditions": "@book:(self development)",
+      "dialog_node": "node_1_1626465685794"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To buy the book, go to the <a href=\"https://www.jarir.com/sa-en/english-books/education/cambridge-english-books-439528.html\" target=\"blank\">Cambridge IGCSE: Biology</a> page."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1626466769986",
+      "conditions": "@Education:Cambridge",
+      "dialog_node": "node_1_1626466930467"
+    },
+    {
+      "type": "standard",
+      "title": "books",
+      "output": {
+        "generic": [
+          {
+            "title": "choose Book type:",
+            "options": [
+              {
+                "label": "Education",
+                "value": {
+                  "input": {
+                    "text": "Education "
+                  }
+                }
+              },
+              {
+                "label": "Novels",
+                "value": {
+                  "input": {
+                    "text": "Novels"
+                  }
+                }
+              },
+              {
+                "label": "self development",
+                "value": {
+                  "input": {
+                    "text": "self development"
+                  }
+                }
+              },
+              {
+                "label": "horror",
+                "value": {
+                  "input": {
+                    "text": "horror"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#books",
+      "dialog_node": "node_2_1626091252907",
+      "previous_sibling": "node_4_1626097925993"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "the books are:",
+            "options": [
+              {
+                "label": "The Alchemist",
+                "value": {
+                  "input": {
+                    "text": "The Alchemist"
+                  }
+                }
+              },
+              {
+                "label": "Kafka on The Shore",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1626091252907",
+      "conditions": "@book:Novels",
+      "dialog_node": "node_2_1626467266493",
+      "previous_sibling": "node_7_1626466769986"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To buy the book, go to the <a href=\"https://www.jarir.com/sa-en/english-books/fiction-literature/harper-collins-english-books-421952.html\" target=\"blank\">The Alchemist</a> page."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1626467266493",
+      "conditions": "@Novels:(The Alchemist)",
+      "dialog_node": "node_2_1626467900477"
+    },
+    {
+      "type": "standard",
+      "title": "#about_restaurant",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The first McDonald’s restaurant was started in 1948 by brothers Maurice (“Mac”) and Richard McDonald in San Bernardino, California."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#restaurantInfo",
+      "dialog_node": "node_3_1626092522224",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. The order $ordernumber is canceled.\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1626098147035",
+      "context": {
+        "ordernumber": "<? @order_number.literal ?>"
+      },
+      "conditions": "@order_number",
+      "dialog_node": "node_3_1626098318870"
+    },
+    {
+      "type": "standard",
+      "parent": "node_8_1626279252891",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_3_1626279395381"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To buy the book, go to the <a href=\"https://www.jarir.com/sa-en/english-books/self-development/local-market-english-books-english-books-542332.html\" target=\"blank\">inspirers</a> page."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1626465685794",
+      "conditions": "@selfDevelopment:inspirers",
+      "dialog_node": "node_3_1626466488858"
+    },
+    {
+      "type": "standard",
+      "context": {
+        "ordernumber": "<? @order_number.literal ?>"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#cancel_order",
+      "dialog_node": "node_4_1626097925993",
+      "previous_sibling": "node_1_1626094682255"
+    },
+    {
+      "type": "standard",
+      "parent": "node_9_1626278380198",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1626098147035"
+      },
+      "conditions": "true",
+      "dialog_node": "node_4_1626278463005"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To buy the book, go to the <a href=\"https://www.jarir.com/sa-en/english-books/self-development/random-house-us-english-books-499372.html\" target=\"blank\">who says you can't?</a> page."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1626465685794",
+      "conditions": "@selfDevelopment:(you do)",
+      "dialog_node": "node_4_1626466651290",
+      "previous_sibling": "node_3_1626466488858"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To buy the book, go to the <a href=\"https://www.jarir.com/sa-en/english-books/education/cambridge-english-books-402153.html\" target=\"blank\">Cambridge English for Scientists - Student's Book</a> page."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1626466769986",
+      "conditions": "@Education:(Cambridge English)",
+      "dialog_node": "node_4_1626467186640",
+      "previous_sibling": "node_1_1626466930467"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To see our menu, go to the <a href=\"https://www.mcdonalds.com/sa/en-sa/riyadh/full-menu/desserts-and-shakes.html\" target=\"blank\">desserts</a> page on our website."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1626094682255",
+      "conditions": "@menu:desserts",
+      "dialog_node": "node_5_1626096352331",
+      "previous_sibling": "node_8_1626096253785"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To see our menu, go to the <a href=\"https://www.mcdonalds.com/sa/en-sa/riyadh/full-menu/beverages.html\" target=\"blank\">Beverages</a> page on our website."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1626094682255",
+      "conditions": "@menu:Beverages",
+      "dialog_node": "node_5_1626096750499",
+      "previous_sibling": "node_5_1626096352331"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To see our menu, go to the <a href=\"https://www.mcdonalds.com/sa/en-sa/riyadh/full-menu/happy-meal.html\" target=\"blank\">happy meal</a> page on our website."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1626094682255",
+      "conditions": "@menu:(happy meal)",
+      "dialog_node": "node_5_1626096869675",
+      "previous_sibling": "node_5_1626096750499"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I need the order number to cancel the order for you. If you don't know the order number, please call us at 950-000-000 to cancel over the phone.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1626098147035",
+      "conditions": "true",
+      "dialog_node": "node_5_1626098518070",
+      "previous_sibling": "node_8_1626279252891"
+    },
+    {
+      "type": "standard",
+      "title": "number provided",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Just to confirm, you want to cancel your order $ordernumber?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1626097925993",
+      "conditions": "@order_number",
+      "dialog_node": "node_6_1626098613037"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To buy the book, go to the <a href=\"https://www.jarir.com/sa-en/english-books/fiction-literature/random-house-uk-english-books-426717.html\" target=\"blank\">Kafka on The Shore</a> page."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1626467266493",
+      "conditions": "@Novels:(Kafka on The Shore)",
+      "dialog_node": "node_6_1626467988122",
+      "previous_sibling": "node_2_1626467900477"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "the books are:",
+            "options": [
+              {
+                "label": "Cambridge IGCSE: Biology",
+                "value": {
+                  "input": {
+                    "text": "Cambridge"
+                  }
+                }
+              },
+              {
+                "label": "Cambridge English for Scientists - Student's Book",
+                "value": {
+                  "input": {
+                    "text": "Cambridge English"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1626091252907",
+      "conditions": "@book:Education",
+      "dialog_node": "node_7_1626466769986",
+      "previous_sibling": "node_1_1626465685794"
+    },
+    {
+      "type": "frame",
+      "title": "reservations",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Reservation completed successfully."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#reservations",
+      "dialog_node": "node_8_1625946981022",
+      "previous_sibling": "node_2_1626091252907"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To see our menu, go to the <a href=\"https://www.mcdonalds.com/sa/en-sa/riyadh/full-menu/mccafe.html\" target=\"blank\">McCafe</a> page on our website."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1626094682255",
+      "conditions": "@menu:McCafe",
+      "dialog_node": "node_8_1626096253785",
+      "previous_sibling": "node_1_1626096161518"
+    },
+    {
+      "type": "standard",
+      "title": "ask for order number",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "what is your order number?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1626097925993",
+      "conditions": "true",
+      "dialog_node": "node_8_1626098147035",
+      "previous_sibling": "node_6_1626098613037"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The correct format for our order numbers is AAnnnnn. The A's represents 2 uppercase letters, and the n's represent 5 numbers. Do you have an order number in that format?\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1626098147035",
+      "conditions": "input.text.find('\\d')",
+      "dialog_node": "node_8_1626279252891",
+      "previous_sibling": "node_3_1626098318870"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. The order $ordernumber is canceled. We hope we get the opportunity to bake a cake for you sometime soon.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1626098613037",
+      "conditions": "#yes",
+      "dialog_node": "node_9_1626278380198"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I need the order number to cancel the order for you. If you don't know the order number, please call us at 950-000-000 to cancel over the phone."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1626279395381",
+      "conditions": "true",
+      "dialog_node": "response_1_1626279530498",
+      "previous_sibling": "response_8_1626279451269"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Ok. The order $ordernumber is canceled. "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1626279395381",
+      "conditions": "@order_number",
+      "dialog_node": "response_8_1626279451269"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1625946981022",
+      "variable": "$date",
+      "dialog_node": "slot_6_1625978083576"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1625946981022",
+      "variable": "$number",
+      "dialog_node": "slot_6_1625978532580",
+      "previous_sibling": "slot_8_1625978226233"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1625946981022",
+      "variable": "$time",
+      "dialog_node": "slot_8_1625978226233",
+      "previous_sibling": "slot_6_1625978083576"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "hello"
+              },
+              {
+                "text": "hi"
+              },
+              {
+                "text": "good day"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#General_Greetings || #Hello",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "speaking skill",
+  "language": "en",
+  "description": ""
+}

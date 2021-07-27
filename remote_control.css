@@ -1,0 +1,172 @@
+body{
+  background:#afb3ba;
+  color: white;
+}
+h1{
+ text-align: center;
+}
+h3{
+  text-align: right;
+  margin-right: 30%;
+}
+.slidecontainer {
+ margin: auto;
+ max-width: 500px;
+ position: relative;
+ 
+  }
+  .slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 85%; /* Full-width */
+    height: 25px; /* Specified height */
+    height: 15px;
+    border-radius: 12px;  /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+    box-shadow: 0px 1px 10px 1px black;
+    margin: 10px;
+  }
+  .engin{
+      float: right;
+      margin: 0;
+  }
+  p{
+    margin: 0;
+  }
+ .slider:hover{
+    opacity: 1px;
+  } 
+  .slider::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  }
+  .slider::after{
+    content: '180';
+    color: green;
+    font-size: 1rem;
+    right: 10px;
+    top: 40%;
+    position: absolute;
+    font-size: 15px;  }
+  .slider::before{
+    content: '0';
+    color: green;
+    font-size: 15px;
+    top: 40%;
+    left: -3px;
+    position: absolute;
+  }
+html body input#bOne{
+  background-color: green;
+  height: 35px;
+  width: 60px;
+  border-radius: 30%;
+  color:white;
+  border: 1px solid white;
+  font: 20px sans-serif;
+  float: right;
+  margin-right: 40px ;
+}
+html body input#bTwo{
+  background-color: green;
+  height: 35px;
+  width: 60px;
+  border-radius: 30%;
+  border: 1px solid white;
+  font: 20px sans-serif;
+  color:white;
+  float: left;
+} 
+form#sec{
+  margin-top: 50px;
+}
+html body form div.center{
+  display: flex;
+  justify-items: center;
+  justify-content: center ;
+  margin-top: 20px;
+}
+form div.center input#left{
+  height: 50px;
+    width: 97px;
+    border-radius: 20%;
+    background-color: white;
+    border: 1px solid green;
+    color: black;
+    margin-right: 20px;
+}
+form div.center input#left:hover{
+  background-color: #75fc75;
+}
+form div.center input#stop{
+  height: 50px;
+    width: 97px;
+    border-radius: 39%;
+    background-color: white;
+    border: 1px solid green;
+    color: black;
+}
+form div.center input#stop:hover{
+  background-color: #75fc75;
+}
+form div.center input#right{
+  height: 50px;
+    width: 97px;
+    border-radius: 20%;
+    background-color: white;
+    border: 1px solid green;
+    color: black;
+    margin-left: 20px;
+}
+form div.center input#right:hover{
+  background-color: #75fc75;
+}
+form div.center input#forward{
+  height: 50px;
+    width: 97px;
+    border-radius: 20%;
+    background-color: white;
+    border: 1px solid green;
+    color: black;
+    margin-top: 100px;
+}
+form div.center input#forward:hover{
+  background-color: #75fc75;
+}
+form div.center input#backward{
+  height: 50px;
+    width: 97px;
+    border-radius: 20%;
+    background-color: white;
+    border: 1px solid green;
+    color: black;
+    margin-bottom: 50px;
+}
+form div.center input#backward:hover{
+  background-color: #75fc75;
+}
+@media(max-width:653px){
+  form div.center input#right{
+    width:60px ;
+  }
+  form div.center input#stop{
+    width: 60px;
+  }
+  form div.center input#left{
+    width: 60px;
+  }
+  form div.center input#forward{
+    width:72px;
+  }
+  form div.center input#backward{
+    width:74px ;
+  }
+}
